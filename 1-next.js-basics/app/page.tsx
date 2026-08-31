@@ -1,9 +1,10 @@
 import Link from "next/link";
+import styles from "./home/home.module.css";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black gap-10">
-			<div className="flex flex-col items-center gap-1">
+		<div className={styles.layout}>
+			<div className={styles.textContainer}>
 				<h1> Welcome to my dummy website </h1>
 				<p>
 					This website was created while doing the "Fundamentals of Next.js"
