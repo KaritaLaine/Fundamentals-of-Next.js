@@ -1,6 +1,8 @@
 ### Fundamentals of Next.js
 
-**Completed tasks:**
+Metropolia's [Moodle course](https://opinto-opas.metropolia.fi/offering/13/47812/72785?lang=EN).
+
+#### Completed tasks
 
 ```
 Next.js basics: 1-7
