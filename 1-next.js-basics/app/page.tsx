@@ -1,9 +1,11 @@
-import Link from "next/link";
+import Navigation from "./components/navigation";
 import styles from "./home/home.module.css";
 
-export default function Home() {
+const Home = () => {
 	return (
 		<div className={styles.layout}>
+			<Navigation />
+
 			<div className={styles.textContainer}>
 				<h1> Welcome to my dummy website </h1>
 				<p>
@@ -11,8 +13,8 @@ export default function Home() {
 					-course.
 				</p>
 			</div>
-
-			<Link href="/about">Go to About Page</Link>
 		</div>
 	);
-}
+};
+
+export default Home;
