@@ -1,6 +1,7 @@
 .card {
 	display: flex;
 	flex-direction: column;
+	flex-shrink: 0;
 	width: 22rem;
 	overflow: hidden;
 	border-radius: 5px;
@@ -34,4 +35,5 @@
 
 .description {
 	font-size: 15px;
+	min-height: 12rem;
 }

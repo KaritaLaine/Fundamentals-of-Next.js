@@ -5,11 +5,12 @@ interface CardProps {
 	image: StaticImageData;
 	title: string;
 	description: string;
+	backgroundColor: string;
 }
 
-const Card = ({ image, title, description }: CardProps) => {
+const Card = ({ image, title, description, backgroundColor }: CardProps) => {
 	return (
-		<div className={styles.card}>
+		<div className={styles.card} style={{ backgroundColor }}>
 			<Image src={image} alt={title} className={styles.image} />
 
 			<div className={styles.body}>
