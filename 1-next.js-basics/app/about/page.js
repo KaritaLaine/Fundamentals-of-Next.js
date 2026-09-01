@@ -2,7 +2,7 @@ import Navigation from "../components/navigation";
 
 export default function About() {
 	return (
-		<div className="flex flex-col flex-1 items-center justify-center gap-10">
+		<div className="flex flex-col flex-1 items-center justify-center gap-10 min-h-screen">
 			<Navigation pathname="/about" />
 
 			<div className="flex flex-col items-center gap-5">
