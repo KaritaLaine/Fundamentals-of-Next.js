@@ -9,10 +9,15 @@ const navLinks = [
 const Navigation = () => {
 	return (
 		<nav>
-			<ul>
+			<ul className="flex flex-row gap-10">
 				{navLinks.map((link) => (
 					<li key={link.href}>
-						<Link href={link.href}>{link.label}</Link>
+						<Link
+							href={link.href}
+							className="text-lg font-semibold border-b-2 border-white transition-colors hover:border-pink-400"
+						>
+							{link.label}
+						</Link>
 					</li>
 				))}
 			</ul>
