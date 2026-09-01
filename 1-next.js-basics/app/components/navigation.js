@@ -14,7 +14,7 @@ const Navigation = () => {
 					<li key={link.href}>
 						<Link
 							href={link.href}
-							className="text-lg font-semibold border-b-2 border-white transition-colors hover:border-pink-400"
+							className="text-xl font-semibold border-b-2 border-white transition-colors hover:border-pink-400"
 						>
 							{link.label}
 						</Link>
