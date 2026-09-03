@@ -2,10 +2,14 @@ import Alert from "./components/alert/alert";
 import Button from "./components/button/button";
 import Card from "./components/card/card";
 import Layout from "./components/layout/layout";
+import ProfileCard from "./components/profile-card/profile-card";
 import Title from "./components/title/title";
 import apothecaryIcon from "./icons/apothecary-diaries.jpg";
 import frierenIcon from "./icons/frieren.jpg";
+import frierenPfp from "./icons/frieren_pfp.webp";
+import maomaoPfp from "./icons/maomao_pfp.jpg";
 import spyFamilyIcon from "./icons/spy-x-family.jpg";
+import yoruPfp from "./icons/yoru_pfp.jpg";
 
 const Home = () => {
 	return (
@@ -39,6 +43,27 @@ const Home = () => {
 					title="Spy x Family"
 					description="A spy on an undercover mission gets married and adopts a child as part of his cover. His wife and daughter have secrets of their own, and all three must strive to keep together."
 					backgroundColor="#4a2c3b"
+				/>
+			</div>
+
+			<div className="flex flex-wrap justify-center gap-[2rem]">
+				<ProfileCard
+					name="Frieren"
+					title="Elven mage"
+					color="#2c2c2e"
+					image={frierenPfp}
+				/>
+				<ProfileCard
+					name="Maomao"
+					title="Court apothecary"
+					color="#22323a"
+					image={maomaoPfp}
+				/>
+				<ProfileCard
+					name="Yor Forger"
+					title="Assassin"
+					color="#4a2c3b"
+					image={yoruPfp}
 				/>
 			</div>
 
