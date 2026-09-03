@@ -10,7 +10,7 @@ import spyFamilyIcon from "./icons/spy-x-family.jpg";
 const Home = () => {
 	return (
 		<Layout>
-			<Alert message="Tailwind is working" />
+			<Alert message="Tailwind CSS is working" />
 
 			<div className="flex flex-col items-center justify-center gap-[1rem]">
 				<Title text="Welcome to my second dummy website" />
