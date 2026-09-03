@@ -1,3 +1,4 @@
+import Alert from "./components/alert/alert";
 import Button from "./components/button/button";
 import Card from "./components/card/card";
 import Layout from "./components/layout/layout";
@@ -9,6 +10,8 @@ import spyFamilyIcon from "./icons/spy-x-family.jpg";
 const Home = () => {
 	return (
 		<Layout>
+			<Alert message="Tailwind is working" />
+
 			<div className="flex flex-col items-center justify-center gap-[1rem]">
 				<Title text="Welcome to my second dummy website" />
 				<p className="text-xl">
