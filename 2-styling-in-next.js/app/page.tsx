@@ -1,5 +1,6 @@
 import Button from "./components/button/button";
 import Card from "./components/card/card";
+import Layout from "./components/layout/layout";
 import Title from "./components/title/title";
 import apothecaryIcon from "./icons/apothecary-diaries.jpg";
 import frierenIcon from "./icons/frieren.jpg";
@@ -7,7 +8,7 @@ import spyFamilyIcon from "./icons/spy-x-family.jpg";
 
 const Home = () => {
 	return (
-		<div className="flex min-h-screen flex-col items-center justify-center gap-[3rem]">
+		<Layout>
 			<div className="flex flex-col items-center justify-center gap-[1rem]">
 				<Title text="Welcome to my second dummy website" />
 				<p className="text-xl">
@@ -39,7 +40,7 @@ const Home = () => {
 			</div>
 
 			<Button btnText="Send good vibes :)" />
-		</div>
+		</Layout>
 	);
 };
 
