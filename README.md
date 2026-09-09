@@ -15,4 +15,5 @@ Deployment & Optimization:
 Project Work:
 
 Total: 25/40
+Required for passing: 32/40
 ```
