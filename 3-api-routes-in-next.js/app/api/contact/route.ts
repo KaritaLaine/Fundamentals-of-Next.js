@@ -20,7 +20,7 @@ export const POST = async (request: Request) => {
 	return Response.json(
 		{
 			success: true,
-			message: `Thank you for sending me a message! :)`,
+			message: `Thank you for sending me a beautiful message! :)`,
 			data: { name, message },
 		},
 		{ status: 201 },
