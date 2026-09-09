@@ -3,6 +3,8 @@ import type { Post } from "@/app/types/posts";
 export const revalidate = 60;
 
 const BlogPage = async () => {
+	console.log("Rendering blog on server");
+
 	const getPosts = await fetch(
 		`${process.env.NEXT_PUBLIC_SITE_URL}/api/posts`,
 		{
