@@ -32,7 +32,7 @@ const ContactForm = () => {
 	return (
 		<>
 			<form
-				className="flex w-80 flex-col gap-[1rem]"
+				className="flex w-[20rem] flex-col gap-[1rem]"
 				onSubmit={(e) => {
 					e.preventDefault();
 					sendMessage();
@@ -55,7 +55,7 @@ const ContactForm = () => {
 					onChange={setMessage}
 				/>
 
-				<Button btnText="Send message!" />
+				<Button btnText="Send your beautiful message!" />
 			</form>
 
 			{result && (
