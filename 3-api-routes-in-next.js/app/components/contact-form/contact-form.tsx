@@ -55,7 +55,7 @@ const ContactForm = () => {
 					onChange={setMessage}
 				/>
 
-				<Button btnText="Send" />
+				<Button btnText="Send message!" />
 			</form>
 
 			{result && (
