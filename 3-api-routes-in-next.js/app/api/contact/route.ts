@@ -2,7 +2,12 @@ export const POST = async (request: Request) => {
 	const { name, message }: { name?: string; message?: string } =
 		await request.json();
 
-	if (!name || !message) {
+	if (
+		typeof name !== "string" ||
+		typeof message !== "string" ||
+		!name.trim() ||
+		!message.trim()
+	) {
 		return Response.json(
 			{
 				success: false,
@@ -12,9 +17,12 @@ export const POST = async (request: Request) => {
 		);
 	}
 
-	return Response.json({
-		success: true,
-		message: `Thank you for sending me a message! :)`,
-		data: { name, message },
-	});
+	return Response.json(
+		{
+			success: true,
+			message: `Thank you for sending me a message! :)`,
+			data: { name, message },
+		},
+		{ status: 201 },
+	);
 };
