@@ -11,6 +11,6 @@ export const posts: Post[] = [
 		id: 2,
 		title: "Karita's current top 3 favorite anime",
 		content:
-			"Sooo my current favorites are Frieren, Apothecary diaries, and Spy x Family! I love comfy anime especially as it's getting colder outside now ^^",
+			"Sooo my current favorites are Frieren, Apothecary diaries, and Spy x Family! I love comfy anime especially as it's getting colder outside now! :)",
 	},
 ];
