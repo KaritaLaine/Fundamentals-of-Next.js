@@ -7,10 +7,12 @@ Metropolia's [Moodle course](https://opinto-opas.metropolia.fi/offering/13/47812
 ```
 Next.js basics: 1-7
 Styling in Next.js: 1-7
-API Routes in Next.js: 
+API Routes in Next.js: 1-6 
+Server-side rendering: 
 State Management and Context API:
+Testing in Next.js: 
 Deployment & Optimization:
 Project Work:
 
-Total: 14/30
+Total: 20/40
 ```
