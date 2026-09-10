@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Button from "../components/button/button";
 import Input from "../components/input/input";
-import Layout from "../components/layout/layout";
+import PageLayout from "../components/page-layout/page-layout";
 
 const Editor = () => {
 	const [text, setText] = useState("");
@@ -14,7 +14,7 @@ const Editor = () => {
 	];
 
 	return (
-		<Layout title="Text editor">
+		<PageLayout title="Text editor">
 			<div className="flex flex-col gap-[2rem]">
 				<Input
 					label="Type something nice:"
@@ -36,7 +36,7 @@ const Editor = () => {
 					</div>
 				</div>
 			</div>
-		</Layout>
+		</PageLayout>
 	);
 };
 

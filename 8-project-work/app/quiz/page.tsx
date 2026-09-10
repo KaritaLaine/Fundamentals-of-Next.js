@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Button from "../components/button/button";
-import Layout from "../components/layout/layout";
+import PageLayout from "../components/page-layout/page-layout";
 import Question from "../components/question/question";
 
 const questions = [
@@ -36,7 +36,7 @@ const Quiz = () => {
 	const score = questions.filter((q, i) => answers[i] === q.answer).length;
 
 	return (
-		<Layout title="Quiz">
+		<PageLayout title="Quiz">
 			<div className="flex flex-col gap-[2rem]">
 				{questions.map((q, i) => (
 					<Question
@@ -63,7 +63,7 @@ const Quiz = () => {
 					/>
 				)}
 			</div>
-		</Layout>
+		</PageLayout>
 	);
 };
 

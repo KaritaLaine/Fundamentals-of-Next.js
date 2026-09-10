@@ -1,8 +1,8 @@
-import Layout from "./components/layout/layout";
+import PageLayout from "./components/page-layout/page-layout";
 
 const Home = () => {
 	return (
-		<Layout title="Welcome to my final website!">
+		<PageLayout title="Welcome to my final website!">
 			<div className="flex flex-col gap-[1rem] text-gray-300">
 				<h2 className="text-xl font-medium text-fuchsia-300">What I learned</h2>
 				<p>
@@ -66,7 +66,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-		</Layout>
+		</PageLayout>
 	);
 };
 

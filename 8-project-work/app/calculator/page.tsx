@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Button from "../components/button/button";
 import Input from "../components/input/input";
-import Layout from "../components/layout/layout";
+import PageLayout from "../components/page-layout/page-layout";
 
 const buttons = [
 	{ text: "+", calc: (a: number, b: number) => a + b },
@@ -21,7 +21,7 @@ const Calculator = () => {
 	const [result, setResult] = useState<number | string>("");
 
 	return (
-		<Layout title="Calculator">
+		<PageLayout title="Calculator">
 			<div className="flex flex-col gap-[1rem]">
 				<p className="text-gray-200 max-w-2/3 mb-[1rem]">
 					Enter two numbers, then pick an operator from the buttons below to see
@@ -60,7 +60,7 @@ const Calculator = () => {
 					</div>
 				)}
 			</div>
-		</Layout>
+		</PageLayout>
 	);
 };
 
