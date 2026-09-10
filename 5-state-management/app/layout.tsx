@@ -1,4 +1,5 @@
 import "./globals.css";
+import { ThemeProvider } from "@/app/context/theme";
 
 const RootLayout = ({ children }: LayoutProps<"/">) => {
 	return (
@@ -10,7 +11,9 @@ const RootLayout = ({ children }: LayoutProps<"/">) => {
 					rel="stylesheet"
 				/>
 			</head>
-			<body className="min-h-full flex flex-col">{children}</body>
+			<body className="min-h-full flex flex-col">
+				<ThemeProvider>{children}</ThemeProvider>
+			</body>
 		</html>
 	);
 };
