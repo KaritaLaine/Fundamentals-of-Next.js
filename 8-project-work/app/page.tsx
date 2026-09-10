@@ -59,9 +59,9 @@ const Home = () => {
 						<h3 className="font-medium text-white"> Quiz </h3>
 						<p>
 							A short multiple-choice quiz. You pick one option per question,
-							then press Submit to see which answers were right and your total
-							score. It's a client component that keeps your picked answers in
-							state.
+							then press Submit to see which answers were correct and which not,
+							and your total score. It's a client component that keeps your
+							picked answers in state.
 						</p>
 					</div>
 				</div>
