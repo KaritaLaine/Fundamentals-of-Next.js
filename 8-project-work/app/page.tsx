@@ -30,7 +30,7 @@ const Home = () => {
 				<div className="flex flex-col gap-[1.5rem]">
 					<div className="flex flex-col gap-[0.5rem]">
 						<h3 className="font-medium text-fuchsia-100"> Home </h3>
-						<p className="text-gray-200 text-sm">
+						<p className="text-gray-200">
 							The page you are on now. It gives a short recap of what I learned
 							on the course and a brief summary of every other page. It's a
 							plain server component, so it just renders text and has no state
@@ -40,7 +40,7 @@ const Home = () => {
 
 					<div className="flex flex-col gap-[0.5rem]">
 						<h3 className="font-medium text-fuchsia-100"> Calculator </h3>
-						<p className="text-gray-200 text-sm">
+						<p className="text-gray-200">
 							A simple calculator. You type two numbers into the input fields,
 							then press one of the operator buttons (+, −, ×, ÷) to run that
 							operation on them. The answer is then shown in a box under the
