@@ -31,7 +31,7 @@ const Input = ({
 					placeholder={placeholder}
 					value={value}
 					onChange={(event) => onChange(event.target.value)}
-					className="w-full rounded-md bg-[#333333] p-[0.5rem]"
+					className="w-full rounded-md bg-[#333333] p-[0.5rem] h-[8rem]"
 				/>
 			) : (
 				<input
