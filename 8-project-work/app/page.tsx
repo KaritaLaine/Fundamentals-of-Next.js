@@ -29,12 +29,23 @@ const Home = () => {
 
 				<div>
 					<h3 className="font-medium text-fuchsia-100"> Home </h3>
-					<p className="text-gray-200">-</p>
+					<p className="text-gray-200">
+						The page you are on now. It gives a short recap of what I learned on
+						the course and a brief summary of every other page. It is a plain
+						server component, so it just renders text and has no state or
+						buttons.
+					</p>
 				</div>
 
 				<div>
 					<h3 className="font-medium text-fuchsia-100"> Calculator </h3>
-					<p className="text-gray-200">-</p>
+					<p className="text-gray-200">
+						A simple calculator. You type two numbers into the input fields,
+						then press one of the operator buttons (+, −, ×, ÷) to run that
+						operation on them. The answer appears in a box under the buttons. It
+						is a client component that keeps the two numbers and the latest
+						result in state, and recalculates whenever you press a button.
+					</p>
 				</div>
 
 				<div>
