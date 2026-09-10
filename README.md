@@ -10,10 +10,10 @@ Styling in Next.js: 1-7
 API Routes in Next.js: 1-6 
 Server-side rendering: 1-5 
 State Management and Context API: 1 (worth 3p)
-Testing in Next.js: 
+Testing in Next.js: 1-4
 Deployment & Optimization:
 Project Work:
 
-Total: 28/40
+Total: 32/40
 Required for passing: 32/40
 ```
