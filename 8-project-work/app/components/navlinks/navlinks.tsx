@@ -17,7 +17,7 @@ const Navlinks = () => {
 					<Link
 						key={link.href}
 						href={link.href}
-						className="font-medium text-fuchsia-100 border-white border-b-2 border-current transition-colors hover:border-fuchsia-300"
+						className="font-medium border-b-2 border-current transition-colors hover:border-fuchsia-300"
 					>
 						{link.label}
 					</Link>
