@@ -12,7 +12,7 @@ Server-side rendering: 1-5
 State Management and Context API: 1 (worth 3p)
 Testing in Next.js: 1-4
 Deployment & Optimization: 1
-Project Work:
+Project Work: done
 
 Total: 33/40
 Required for passing: 32/40
