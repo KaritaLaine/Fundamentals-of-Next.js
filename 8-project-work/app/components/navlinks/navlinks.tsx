@@ -6,7 +6,7 @@ const navLinks = [
 	{ href: "/", label: "Home" },
 	{ href: "/calculator", label: "Calculator" },
 	{ href: "/editor", label: "Editor" },
-	{ href: "/editor", label: "Quiz" },
+	{ href: "/quiz", label: "Quiz" },
 ];
 
 const Navlinks = () => {
