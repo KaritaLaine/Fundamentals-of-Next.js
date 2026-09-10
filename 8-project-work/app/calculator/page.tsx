@@ -6,12 +6,12 @@ import Input from "../components/input/input";
 import Navlinks from "../components/navlinks/navlinks";
 
 const buttons = [
-	{ label: "+", calculate: (a: number, b: number) => a + b },
-	{ label: "−", calculate: (a: number, b: number) => a - b },
-	{ label: "×", calculate: (a: number, b: number) => a * b },
+	{ text: "+", calc: (a: number, b: number) => a + b },
+	{ text: "−", calc: (a: number, b: number) => a - b },
+	{ text: "×", calc: (a: number, b: number) => a * b },
 	{
-		label: "÷",
-		calculate: (a: number, b: number) => a / b,
+		text: "÷",
+		calc: (a: number, b: number) => a / b,
 	},
 ];
 
@@ -50,9 +50,9 @@ const Calculator = () => {
 				<div className="flex gap-[1rem]">
 					{buttons.map((btn) => (
 						<Button
-							key={btn.label}
-							btnText={btn.label}
-							onClick={() => setResult(btn.calculate(a, b))}
+							key={btn.text}
+							btnText={btn.text}
+							onClick={() => setResult(btn.calc(a, b))}
 						/>
 					))}
 				</div>
