@@ -9,11 +9,11 @@ Next.js basics: 1-7
 Styling in Next.js: 1-7
 API Routes in Next.js: 1-6 
 Server-side rendering: 1-5 
-State Management and Context API:
+State Management and Context API: 1 (worth 3p)
 Testing in Next.js: 
 Deployment & Optimization:
 Project Work:
 
-Total: 25/40
+Total: 28/40
 Required for passing: 32/40
 ```
