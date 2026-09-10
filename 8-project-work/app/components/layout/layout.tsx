@@ -8,7 +8,7 @@ interface LayoutProps {
 
 const Layout = ({ title, children }: LayoutProps) => {
 	return (
-		<div className="flex flex-col gap-[3rem] py-[5rem] max-w-xl m-auto">
+		<div className="flex flex-col gap-[3rem] py-[5rem] w-xl m-auto">
 			<h1 className="text-3xl font-semibold">{title}</h1>
 
 			<Navlinks />
