@@ -20,7 +20,7 @@ const Home = () => {
 				<p className="text-gray-200">
 					The parts I learned the most from were the App Router and the split
 					between server and client components, server-side rendering, writing
-					tests with Jest, and finally deploying a project on Vercel.
+					tests with Jest, and deploying a project on Vercel.
 				</p>
 			</div>
 
