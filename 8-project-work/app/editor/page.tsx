@@ -15,7 +15,7 @@ const Editor = () => {
 
 	return (
 		<div className="flex flex-col gap-[3rem] py-[5rem] w-xl m-auto">
-			<h1 className="text-3xl font-semibold">Editor</h1>
+			<h1 className="text-3xl font-semibold">Text editor</h1>
 
 			<Navlinks />
 
