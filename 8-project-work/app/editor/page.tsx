@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Button from "../components/button/button";
 import Input from "../components/input/input";
-import Navlinks from "../components/navlinks/navlinks";
+import Layout from "../components/layout/layout";
 
 const Editor = () => {
 	const [text, setText] = useState("");
@@ -14,11 +14,7 @@ const Editor = () => {
 	];
 
 	return (
-		<div className="flex flex-col gap-[3rem] py-[5rem] w-xl m-auto">
-			<h1 className="text-3xl font-semibold">Text editor</h1>
-
-			<Navlinks />
-
+		<Layout title="Text editor">
 			<div className="flex flex-col gap-[2rem]">
 				<Input
 					label="Type something nice:"
@@ -40,7 +36,7 @@ const Editor = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</Layout>
 	);
 };
 
